@@ -37,3 +37,10 @@ From these graphs, we can see some strong relationships between some of the vari
 The weakest correlations were the relationships between security delays and all other delay causes. I would imagine this is because security delays are rare and happen significantly less than all other delays. 
 
 While I find the PairGrid plot easier to understand upon first glance for the average person, I included the heatmap in the presentation because it is more compact and fits better on the slides.
+
+### Multivariate Findings
+I have three multivariate visualizations for this project:
+- Two clustered Bar chart showing the relationship between location, time of year, and weather delays (one for hot climates and one for cold climates).
+- A scatterplot showing the relationship between late aircraft delays, carrier delays, weather delays, and NAS delays. 
+
+I only wanted to include one the of clustered bar charts in the presentation for simplicities sake, especially since there is no significant interaction with these three variables. I decided to include with the cold climate clustered bar chart because that was the comparison I initially was curious about from the beginning of the project. I also included my last plot in the presentation. While this plot does not show a large interaction between these four variables, a small relationship can be seen between the four variables. I also found it interesting that when there were unusually high amounts of one delay, the odds of there being high amounts of the other delays also increased. This is best portrayed through the point in the upper right-hand corner of the graph.

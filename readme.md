@@ -24,3 +24,16 @@ I then made another bar plot that shows the percentage of flights delayed per ai
 Next, I made two waffle plots, the first showing how many flights were delayed compared to on-time and cancelled flights. Similarly, the second waffle plot shows the breakdown of delay causes out of all delayed flights. The most common delay cause is late aircrafts, while the smallest by far is security delays (it doesn’t even show on the plot). I chose to include this second waffle plot because I find this plot more interesting and relevant to the rest of the presentation.
 
 My last univariate plot is a series of histograms showing the duration distribution in minutes of the five flight delay causes. I used a logarithmic scale for these histograms because they were all incredibly right skewed and had long, narrow tails. The delay types with the longest length on average are carrier, and NAS delays. I did not indlude this in my presentation becuase it would not fit on the slides. 
+
+### Bivariate Findings
+For bivariate exploration, I performed two analyses: A heatmap and a Pair Grid of the 5 delay variables to see if there were any relationships among them. I didn’t move forward with any more bivariate analyses because no further insights were apparent when using a different scale or transformation for these plots. All the graphs were readable before transformation, so it seemed redundant to create multiple bivariate plots that portrayed the same information as the Pair Grid plot.
+
+From these graphs, we can see some strong relationships between some of the variables, namely between:
+- Carrier and late aircraft (0.905)
+- NAS and carrier (0.813)
+- Late aircraft and NAS (0.806)
+- Weather and late aircraft (0.733)
+
+The weakest correlations were the relationships between security delays and all other delay causes. I would imagine this is because security delays are rare and happen significantly less than all other delays. 
+
+While I find the PairGrid plot easier to understand upon first glance for the average person, I included the heatmap in the presentation because it is more compact and fits better on the slides.
